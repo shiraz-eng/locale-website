@@ -1,0 +1,18 @@
+import fs from "node:fs";
+import assert from "node:assert/strict";
+import ts from "typescript";
+const module={exports:{}};
+new Function("exports","module",ts.transpileModule(fs.readFileSync("lib/document-fields.ts","utf8"),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText)(module.exports,module);
+const {updateDocumentField}=module.exports;
+const doc={title:"Original title",description:"Original description",cover_image:"https://images.unsplash.com/photo-example?w=1200",cover_alt:"Cover",sections:[{type:"hero",heading:"Original title",subheading:"Original description",image:"https://images.unsplash.com/photo-example?w=1800",image_alt:"Hero"},{type:"overview",body:"Original description"}]};
+const before=JSON.stringify(doc);
+assert.equal(updateDocumentField(doc,"title","New title").sections[0].heading,"New title");
+assert.equal(updateDocumentField(doc,"description","New description").sections[1].body,"New description");
+assert.equal(updateDocumentField(doc,"cover_image","/portfolio/villa.webp").sections[0].image,"/portfolio/villa.webp");
+const custom=structuredClone(doc);custom.sections[0].heading="Independent hero";custom.sections[0].image="/portfolio/interior.webp";
+assert.equal(updateDocumentField(custom,"title","New title").sections[0].heading,"Independent hero");
+assert.equal(updateDocumentField(custom,"cover_image","/portfolio/villa.webp").sections[0].image,"/portfolio/interior.webp");
+const service={name:"Service",short_description:"Summary",card_image:null,sections:[{type:"hero",heading:"Service",subheading:"Summary",image:null}]};
+assert.equal(updateDocumentField(service,"name","Updated service").sections[0].heading,"Updated service");
+assert.equal(JSON.stringify(doc),before);
+console.log("Verified basic-field/hero synchronization, independent overrides, and immutable editor updates.");

@@ -1,0 +1,331 @@
+{
+  "service": [
+    {
+      "id": "included",
+      "enabled": true,
+      "appearance": {
+        "background": "white",
+        "text": "default",
+        "accent": "gold",
+        "align": "left",
+        "spacing": "normal"
+      },
+      "type": "features",
+      "heading": "What’s Included",
+      "intro": "A complete service tailored to your site, needs, and long-term goals.",
+      "layout": "grid-3",
+      "items": [
+        {
+          "title": "Site and Feasibility Studies",
+          "description": "Assess the site, planning context, and design opportunities.",
+          "icon": "map-pin"
+        },
+        {
+          "title": "Concept Design",
+          "description": "Explore form, layout, and character with you.",
+          "icon": "layers"
+        },
+        {
+          "title": "Space Planning",
+          "description": "Create layouts that make good use of space, daylight, and circulation.",
+          "icon": "layout-grid"
+        },
+        {
+          "title": "Design Development",
+          "description": "Refine the details and material choices for coordination.",
+          "icon": "drafting-compass"
+        },
+        {
+          "title": "Coordination Drawings",
+          "description": "Prepare drawings for consultant input, approvals, and delivery.",
+          "icon": "file-text"
+        },
+        {
+          "title": "Material Guidance",
+          "description": "Select finishes and details that work together throughout your project.",
+          "icon": "palette"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "enabled": true,
+      "appearance": {
+        "background": "soft",
+        "text": "default",
+        "accent": "gold",
+        "align": "left",
+        "spacing": "normal"
+      },
+      "type": "process",
+      "heading": "A Clear, Collaborative Process",
+      "intro": "A collaborative process from first ideas to a build-ready design.",
+      "layout": "timeline",
+      "items": [
+        {
+          "title": "Discover & Align",
+          "description": "Discuss your goals, site, lifestyle, and project priorities."
+        },
+        {
+          "title": "Design & Explore",
+          "description": "Compare layouts and concepts to find the right direction."
+        },
+        {
+          "title": "Develop & Refine",
+          "description": "Work through details, materials, and consultant input."
+        },
+        {
+          "title": "Approve & Prepare",
+          "description": "Coordinate drawings for approvals and construction."
+        },
+        {
+          "title": "Build & Realise",
+          "description": "Support the build team as the design takes shape."
+        }
+      ]
+    },
+    {
+      "id": "selected-projects",
+      "enabled": true,
+      "appearance": {
+        "background": "white",
+        "text": "default",
+        "accent": "gold",
+        "align": "left",
+        "spacing": "normal"
+      },
+      "type": "related_projects",
+      "heading": "Selected Projects",
+      "intro": "",
+      "source": "category",
+      "categories": [],
+      "projects": [],
+      "limit": 3,
+      "layout": "grid-3",
+      "link": {
+        "label": "View All Projects",
+        "href": "/projects",
+        "style": "link",
+        "visible": true
+      }
+    },
+    {
+      "id": "why-us",
+      "enabled": true,
+      "appearance": {
+        "background": "white",
+        "text": "default",
+        "accent": "gold",
+        "align": "left",
+        "spacing": "normal"
+      },
+      "type": "features",
+      "heading": "A Trusted Partner for Your Project",
+      "intro": "A design-led approach grounded in people, place, and lasting value.",
+      "layout": "strip",
+      "items": [
+        {
+          "title": "People-Centred Design",
+          "description": "Spaces shaped around how you live, work, and gather.",
+          "icon": "users"
+        },
+        {
+          "title": "Site-Responsive Solutions",
+          "description": "Designs informed by the landscape, climate, and local character.",
+          "icon": "leaf"
+        },
+        {
+          "title": "Design to Delivery",
+          "description": "A coordinated path from early ideas to build-ready drawings.",
+          "icon": "layers"
+        },
+        {
+          "title": "Lasting Value",
+          "description": "Thoughtful choices that serve the building well over time.",
+          "icon": "gem"
+        }
+      ]
+    },
+    {
+      "id": "consultation",
+      "enabled": true,
+      "appearance": {
+        "background": "white",
+        "text": "default",
+        "accent": "gold",
+        "align": "left",
+        "spacing": "normal"
+      },
+      "type": "cta",
+      "heading": "Book a Consultation",
+      "text": "Share your ideas with the studio and explore how we can bring your project to life.",
+      "layout": "banner",
+      "image": "/portfolio/services/banner.jpg",
+      "image_alt": "Sunlit seating area overlooking a garden",
+      "buttons": [
+        {
+          "label": "Book Consultation",
+          "href": "/contact?type=consultation",
+          "style": "primary",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "id": "materials",
+    "type": "materials",
+    "enabled": true,
+    "nav_label": "Materials",
+    "appearance": {
+      "background": "white",
+      "text": "default",
+      "accent": "gold",
+      "align": "left",
+      "spacing": "normal"
+    },
+    "layout": "grid",
+    "heading": "Materials & Finishes",
+    "intro": "Material specifications and finish selections are confirmed with the studio for each project.",
+    "priorities": [],
+    "items": [],
+    "strategy": []
+  },
+  "process": {
+    "id": "process",
+    "type": "project_process",
+    "enabled": true,
+    "nav_label": "Process",
+    "appearance": {
+      "background": "white",
+      "text": "default",
+      "accent": "gold",
+      "align": "left",
+      "spacing": "normal"
+    },
+    "layout": "steps",
+    "heading": "Design & Build Process",
+    "intro": "A collaborative approach from the initial brief to final delivery. Scope and sequencing are confirmed for each project.",
+    "image": null,
+    "image_alt": "",
+    "items": [
+      {
+        "title": "Discovery & Brief",
+        "description": "Understand your vision, needs, and project goals.",
+        "duration": "",
+        "image": "/portfolio/process/discovery.jpg",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Concept Design",
+        "description": "Explore design ideas, layouts, and visual direction.",
+        "duration": "",
+        "image": "/portfolio/process/concept.jpg",
+        "icon": "layers"
+      },
+      {
+        "title": "Design Development",
+        "description": "Refine plans, materials, and technical details.",
+        "duration": "",
+        "image": "/portfolio/process/development.jpg",
+        "icon": "drafting-compass"
+      },
+      {
+        "title": "Execution",
+        "description": "Build with regular progress updates and quality checks.",
+        "duration": "",
+        "image": "/portfolio/process/execution.jpg",
+        "icon": "hard-hat"
+      },
+      {
+        "title": "Handover",
+        "description": "Complete the final inspection and hand over the finished home.",
+        "duration": "",
+        "image": "/portfolio/villa.webp",
+        "icon": "key"
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Conceptual Layouts",
+        "description": "",
+        "icon": "scan"
+      },
+      {
+        "title": "Detailed Drawings",
+        "description": "",
+        "icon": "layers"
+      },
+      {
+        "title": "3D Visualizations",
+        "description": "",
+        "icon": "box"
+      },
+      {
+        "title": "Material Specifications",
+        "description": "",
+        "icon": "drafting-compass"
+      },
+      {
+        "title": "Project Schedule",
+        "description": "",
+        "icon": "file-text"
+      },
+      {
+        "title": "Quality Reports",
+        "description": "",
+        "icon": "shield-check"
+      }
+    ],
+    "team": [],
+    "team_intro": "Your project team is confirmed with the studio.",
+    "timeline_intro": "Timing is agreed after the project scope and coordination requirements are understood.",
+    "cta_heading": "Let’s Build Your Dream Space",
+    "cta_text": "Tell us what you have in mind and take the first step toward a space designed around you.",
+    "buttons": [
+      {
+        "label": "Book a Consultation",
+        "href": "/contact?type=consultation&project={slug}",
+        "style": "primary",
+        "visible": true
+      }
+    ]
+  },
+  "video": {
+    "id": "videos",
+    "type": "project_videos",
+    "enabled": true,
+    "appearance": {
+      "background": "white",
+      "text": "default",
+      "accent": "gold",
+      "align": "left",
+      "spacing": "normal"
+    },
+    "nav_label": "Video",
+    "heading": "Video",
+    "intro": "Architecture films selected for design inspiration. These films feature work by other architects.",
+    "inspiration": true,
+    "layout": "playlist",
+    "videos": [
+      {
+        "image": "https://i.ytimg.com/vi/Kguit4mv1AY/hqdefault.jpg",
+        "alt": "A home above a quarry lake",
+        "caption": "A home above a quarry lake · The Local Project",
+        "video": "https://www.youtube.com/watch?v=Kguit4mv1AY"
+      },
+      {
+        "image": "https://i.ytimg.com/vi/7Ju0XufMGhw/hqdefault.jpg",
+        "alt": "A hidden modern sanctuary",
+        "caption": "A hidden modern sanctuary · The Local Project",
+        "video": "https://www.youtube.com/watch?v=7Ju0XufMGhw"
+      },
+      {
+        "image": "https://i.ytimg.com/vi/VVt7dLMMkzc/hqdefault.jpg",
+        "alt": "Between the trees and the sea",
+        "caption": "Between the trees and the sea · The Local Project",
+        "video": "https://www.youtube.com/watch?v=VVt7dLMMkzc"
+      }
+    ]
+  }
+}

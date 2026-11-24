@@ -1,0 +1,47 @@
+.sv-reference{background:#fffdfb}
+.sv-reference .aa-shell{width:min(100% - clamp(36px,9vw,128px),1320px)}
+.sv-reference .sv-section{--sv-pad:clamp(26px,4vw,54px)}
+.sv-reference.sv-detail .sv-bg-white+.sv-bg-white{padding-top:var(--sv-pad)}
+.sv-reference .svo-hero{padding:0}
+.sv-reference.sv-overview-page .svo-hero .sv-hero{position:relative;isolation:isolate;display:flex;min-height:clamp(300px,28vw,460px)}
+.sv-reference.sv-overview-page .svo-hero .sv-hero-image{position:absolute;inset:0 0 0 auto;width:76%;z-index:-2}
+.sv-reference.sv-overview-page .svo-hero .sv-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#fffdfb 16%,#fffdfbf2 31%,#fffdfb80 46%,transparent 65%)}
+.sv-reference .svo-hero .sv-hero-copy{max-width:660px}
+.aa-home.sv-reference.sv-overview-page .sv-hero h1,.aa-home.sv-reference .sv-section h2{font-family:var(--aa-display);font-weight:500;letter-spacing:-.035em}
+.aa-home.sv-reference .sv-section h2{font-size:clamp(1.85rem,3vw,3rem)}
+.sv-reference.sv-overview-page .svo-layout:not(.svo-with-aside) .svo-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.sv-reference .svo-card{background:#faf7f2}
+.sv-reference .svo-card-image{aspect-ratio:2.45}
+.sv-reference .svo-card-icon{position:static;grid-row:1/5;width:40px;height:40px;background:transparent;border:0;color:var(--color-green)}
+.sv-reference .svo-card-body{display:grid;grid-template-columns:40px minmax(0,1fr);grid-template-rows:auto auto 1fr auto;column-gap:12px}
+.aa-home.sv-reference .svo-card h3{margin:0;font:550 1.3rem/1.15 var(--aa-display)}
+.sv-reference .svo-card-body>*:not(.svo-card-icon){grid-column:2}
+.sv-reference .svo-explore{color:#774a0e}
+.sv-reference .sv-card{background:#faf7f2;border:1px solid #eae3da;border-radius:9px}
+.sv-reference .sv-steps.sv-timeline{grid-template-columns:repeat(5,minmax(0,1fr))}
+.sv-reference .sv-steps.sv-timeline p{max-width:23ch;margin-inline:auto}
+.sv-reference .sv-cta-banner{border-radius:11px;background:#f5efe6}
+.sv-reference .sv-cta-banner .sv-cta-image{opacity:1;inset:0 0 0 auto;width:65%}
+.sv-reference .sv-cta-banner .sv-cta-image::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f5efe6,transparent 65%)}
+.aa-home.sv-reference .sv-cta-banner :is(h2,p){color:#211a14}
+@media(max-width:950px){
+  .sv-reference.sv-overview-page .svo-layout:not(.svo-with-aside) .svo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .sv-reference.sv-overview-page .svo-hero .sv-hero{display:flex;flex-direction:column;align-items:stretch}
+  .sv-reference.sv-overview-page .svo-hero .sv-hero-image{position:relative;order:2;width:100%;z-index:auto}
+  .sv-reference.sv-overview-page .svo-hero .sv-hero::after{display:none}
+  .sv-reference .sv-steps.sv-timeline{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:24px}
+  .sv-reference .sv-cta-banner .sv-cta-image{opacity:.2}
+}
+@media(max-width:540px){
+  .sv-reference.sv-overview-page .svo-layout:not(.svo-with-aside) .svo-grid{grid-template-columns:minmax(0,1fr)}
+}
+
+@media(max-width:760px){
+  .sv-reference .sv-steps.sv-timeline{grid-template-columns:minmax(0,1fr)}
+  .sv-reference .sv-steps.sv-timeline li{text-align:left}
+  .sv-reference .sv-steps.sv-timeline li>div{display:grid;grid-template-columns:44px minmax(0,1fr);column-gap:12px;align-items:start}
+  .sv-reference .sv-steps.sv-timeline .sv-step-number{grid-row:1/3;width:40px;height:40px;margin:0}
+  .sv-reference .sv-steps.sv-timeline p{grid-column:2;max-width:none;margin:0}
+}

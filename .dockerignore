@@ -1,0 +1,11 @@
+node_modules
+.pnpm-store
+.next
+.env*
+.git
+backend/.venv
+backend/uploads
+**/__pycache__
+*.tsbuildinfo
+.qa
+.venv

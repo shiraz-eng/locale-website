@@ -1,0 +1,11 @@
+.env*
+!.env.example
+.venv
+.next
+node_modules
+.pnpm-store
+tmp
+backend/tests
+backend/verify_cms.py
+**/__pycache__
+*.tsbuildinfo

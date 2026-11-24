@@ -1,0 +1,292 @@
+{
+  "materialSection": {
+    "id": "materials",
+    "type": "materials",
+    "enabled": true,
+    "nav_label": "Materials",
+    "appearance": {
+      "background": "white",
+      "text": "default",
+      "accent": "gold",
+      "align": "left",
+      "spacing": "normal"
+    },
+    "layout": "grid",
+    "heading": "Materials & Finishes",
+    "intro": "A palette of natural, durable materials connects the home to its lakeside setting.",
+    "priorities": [
+      {
+        "title": "Natural & Durable",
+        "description": "",
+        "icon": "leaf"
+      },
+      {
+        "title": "Low Maintenance",
+        "description": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Sustainable",
+        "description": "",
+        "icon": "leaf"
+      },
+      {
+        "title": "Timeless Aesthetic",
+        "description": "",
+        "icon": "gem"
+      },
+      {
+        "title": "Thermally Efficient",
+        "description": "",
+        "icon": "sun"
+      },
+      {
+        "title": "Indoor–Outdoor Harmony",
+        "description": "",
+        "icon": "landmark"
+      }
+    ],
+    "items": [
+      {
+        "category": "Exterior Envelope",
+        "category_intro": "A weather-resistant façade that draws on the colors and textures of the lakeside setting.",
+        "title": "Natural Stone Cladding",
+        "image": "/portfolio/materials/cladding.png",
+        "description": "Textured stone adds warmth and depth to the façade.",
+        "tags": "Durable, Low Maintenance, Natural Tone"
+      },
+      {
+        "category": "Exterior Envelope",
+        "category_intro": "A weather-resistant façade that draws on the colors and textures of the lakeside setting.",
+        "title": "Thermally Modified Timber",
+        "image": "/portfolio/materials/modified-timber.png",
+        "description": "Rich timber grain softens the exterior. Thermal modification improves stability outdoors.",
+        "tags": "Durable, Weather Resistant, Warm Tone"
+      },
+      {
+        "category": "Exterior Envelope",
+        "category_intro": "A weather-resistant façade that draws on the colors and textures of the lakeside setting.",
+        "title": "Textured Concrete",
+        "image": "/portfolio/materials/textured-concrete.png",
+        "description": "A fine matte finish gives exposed surfaces a clean, understated appearance.",
+        "tags": "High Strength, Low Maintenance, Matte Texture"
+      },
+      {
+        "category": "Interior Finishes",
+        "category_intro": "Natural finishes bring warmth and texture to the rooms.",
+        "title": "Engineered Wood Flooring",
+        "image": "/portfolio/materials/wood-floor.png",
+        "description": "A herringbone pattern adds warmth and gives the floor a subtle sense of movement.",
+        "tags": "Durable, Easy Care, Warm Tone"
+      },
+      {
+        "category": "Interior Finishes",
+        "category_intro": "Natural finishes bring warmth and texture to the rooms.",
+        "title": "Natural Stone Surface",
+        "image": "/portfolio/materials/stone-surface.png",
+        "description": "Light stone with understated veining carries the exterior palette indoors.",
+        "tags": "Long Lasting, Natural Finish, Subtle Veining"
+      },
+      {
+        "category": "Interior Finishes",
+        "category_intro": "Natural finishes bring warmth and texture to the rooms.",
+        "title": "Lime-Plaster Wall Finish",
+        "image": "/portfolio/materials/lime-plaster.png",
+        "description": "A breathable plaster with a soft, tactile finish.",
+        "tags": "Breathable, Low VOC, Matte Texture"
+      },
+      {
+        "category": "Glazing & Openings",
+        "category_intro": "Expansive openings bring in daylight and frame views of the lake.",
+        "title": "Low-Iron Glass",
+        "image": "/portfolio/materials/clear-glass.png",
+        "description": "Clear glazing admits daylight and preserves the natural colors of the landscape.",
+        "tags": "High Clarity, UV Control, Thermal Efficiency"
+      },
+      {
+        "category": "Glazing & Openings",
+        "category_intro": "Expansive openings bring in daylight and frame views of the lake.",
+        "title": "Aluminum Framing",
+        "image": "/portfolio/materials/aluminum-frame.png",
+        "description": "Slim frames with thermal breaks limit heat transfer through the window profiles.",
+        "tags": "Thermal Break, Durable, Slim Profile"
+      },
+      {
+        "category": "Glazing & Openings",
+        "category_intro": "Expansive openings bring in daylight and frame views of the lake.",
+        "title": "Sliding Glass System",
+        "image": "/portfolio/materials/sliding-glass.png",
+        "description": "Large sliding panels open the living spaces directly onto the terrace.",
+        "tags": "Smooth Operation, Weather Sealed, Wide Openings"
+      },
+      {
+        "category": "Landscape & Outdoor Elements",
+        "category_intro": "Weather-resistant finishes extend the living areas into the garden.",
+        "title": "Natural Stone Paving",
+        "image": "/portfolio/materials/stone-paving.png",
+        "description": "Textured paving ties the terrace and garden paths into the surrounding site.",
+        "tags": "Exterior Grade, Slip Resistant, Textured"
+      },
+      {
+        "category": "Landscape & Outdoor Elements",
+        "category_intro": "Weather-resistant finishes extend the living areas into the garden.",
+        "title": "Timber Decking",
+        "image": "/portfolio/materials/decking.png",
+        "description": "Warm-toned decking defines the outdoor seating areas.",
+        "tags": "Durable, Low Maintenance, Natural Finish"
+      },
+      {
+        "category": "Landscape & Outdoor Elements",
+        "category_intro": "Weather-resistant finishes extend the living areas into the garden.",
+        "title": "Native Planting & Stone Edge",
+        "image": "/portfolio/materials/native-planting.png",
+        "description": "Native planting and natural stone give the garden structure throughout the year.",
+        "tags": "Low Water, Site Responsive, Native Planting"
+      }
+    ],
+    "strategy": [
+      {
+        "title": "Lasting Durability",
+        "description": "Weather-resistant finishes for exposed surfaces and everyday wear.",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Sustainable Choice",
+        "description": "Locally sourced and lower-impact materials where practical.",
+        "icon": "leaf"
+      },
+      {
+        "title": "Refined Aesthetics",
+        "description": "Natural tones and restrained detailing that age gracefully.",
+        "icon": "layers"
+      },
+      {
+        "title": "Thermal Comfort",
+        "description": "Glazing and envelope systems that support year-round comfort.",
+        "icon": "sun"
+      },
+      {
+        "title": "Landscape Integration",
+        "description": "Materials that carry the colors and textures of the lakefront into the home.",
+        "icon": "landmark"
+      }
+    ]
+  },
+  "projectProcessSection": {
+    "id": "process",
+    "type": "project_process",
+    "enabled": true,
+    "nav_label": "Process",
+    "appearance": {
+      "background": "white",
+      "text": "default",
+      "accent": "gold",
+      "align": "left",
+      "spacing": "normal"
+    },
+    "layout": "steps",
+    "heading": "Design & Build Process",
+    "intro": "From the first conversation to the final walkthrough, each stage turns your ideas into decisions we can build from.",
+    "image": "/portfolio/sketch.webp",
+    "image_alt": "Perspective concept sketch of Lakeside Villa",
+    "items": [
+      {
+        "title": "Discovery & Brief",
+        "description": "Understand your vision, needs, and project goals.",
+        "duration": "1–2 weeks",
+        "image": "/portfolio/process/discovery.jpg",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Concept Design",
+        "description": "Explore design ideas, layouts, and visual direction.",
+        "duration": "2–4 weeks",
+        "image": "/portfolio/process/concept.jpg",
+        "icon": "layers"
+      },
+      {
+        "title": "Design Development",
+        "description": "Refine plans, materials, and technical details.",
+        "duration": "4–6 weeks",
+        "image": "/portfolio/process/development.jpg",
+        "icon": "drafting-compass"
+      },
+      {
+        "title": "Execution",
+        "description": "Build with regular progress updates and quality checks.",
+        "duration": "12–18 weeks",
+        "image": "/portfolio/process/execution.jpg",
+        "icon": "hard-hat"
+      },
+      {
+        "title": "Handover",
+        "description": "Complete the final inspection and hand over the finished home.",
+        "duration": "1 week",
+        "image": "/portfolio/villa.webp",
+        "icon": "key"
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Conceptual Layouts",
+        "description": "",
+        "icon": "scan"
+      },
+      {
+        "title": "Detailed Drawings",
+        "description": "",
+        "icon": "layers"
+      },
+      {
+        "title": "3D Visualizations",
+        "description": "",
+        "icon": "box"
+      },
+      {
+        "title": "Material Specifications",
+        "description": "",
+        "icon": "drafting-compass"
+      },
+      {
+        "title": "Project Schedule",
+        "description": "",
+        "icon": "file-text"
+      },
+      {
+        "title": "Quality Reports",
+        "description": "",
+        "icon": "shield-check"
+      }
+    ],
+    "team": [
+      {
+        "title": "Architect",
+        "image": "/portfolio/process/architect.jpg"
+      },
+      {
+        "title": "Interior Designer",
+        "image": "/portfolio/process/designer.jpg"
+      },
+      {
+        "title": "Project Manager",
+        "image": "/portfolio/process/manager.jpg"
+      },
+      {
+        "title": "Site Supervisor",
+        "image": "/portfolio/process/supervisor.jpg"
+      }
+    ],
+    "team_intro": "Illustrative roles across design, coordination, and construction.",
+    "timeline_intro": "Indicative durations for this concept.",
+    "cta_heading": "Let’s Build Your Dream Space",
+    "cta_text": "Tell us what you have in mind and take the first step toward a space designed around you.",
+    "buttons": [
+      {
+        "label": "Book a Consultation",
+        "href": "/contact?type=consultation",
+        "style": "primary",
+        "visible": true
+      }
+    ]
+  }
+}

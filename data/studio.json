@@ -1,0 +1,232 @@
+{
+  "projects": [
+    {
+      "slug": "courtyard-house",
+      "title": "The Courtyard House",
+      "location": "Sonoma, California",
+      "category": "Residential",
+      "year": 2025,
+      "area": "3,200 ft²",
+      "description": "A quiet retreat organized around a garden, where the threshold between indoors and out becomes part of daily life.",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": true,
+      "concept": "A quiet retreat organized around a garden, where the threshold between indoors and out becomes part of daily life. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    },
+    {
+      "slug": "stillwater-residence",
+      "title": "Stillwater Residence",
+      "location": "Carmel, California",
+      "category": "Residential",
+      "year": 2024,
+      "area": "2,840 ft²",
+      "description": "Soft daylight and warm timber set the pace for a home designed around slow mornings and long evenings.",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": true,
+      "concept": "Soft daylight and warm timber set the pace for a home designed around slow mornings and long evenings. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    },
+    {
+      "slug": "assembly-workplace",
+      "title": "Assembly Workplace",
+      "location": "San Francisco, California",
+      "category": "Commercial",
+      "year": 2025,
+      "area": "18,500 ft²",
+      "description": "An adaptable workplace with a legible circulation spine and generous spaces for informal collaboration.",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": true,
+      "concept": "An adaptable workplace with a legible circulation spine and generous spaces for informal collaboration. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    },
+    {
+      "slug": "linen-loft",
+      "title": "The Linen Loft",
+      "location": "Oakland, California",
+      "category": "Interior Design",
+      "year": 2024,
+      "area": "1,620 ft²",
+      "description": "An interior renovation that balances tactile finishes with the clarity of an open floor plate.",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": false,
+      "concept": "An interior renovation that balances tactile finishes with the clarity of an open floor plate. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    },
+    {
+      "slug": "civic-threads",
+      "title": "Civic Threads",
+      "location": "Sacramento, California",
+      "category": "Urban Planning",
+      "year": 2026,
+      "area": "4.8 acres",
+      "description": "A pedestrian-first framework that connects everyday destinations through shade, seating and planting.",
+      "status": "Concept",
+      "image": "https://images.unsplash.com/photo-1511818966892-d7d671e672a3?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1511818966892-d7d671e672a3?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": false,
+      "concept": "A pedestrian-first framework that connects everyday destinations through shade, seating and planting. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    },
+    {
+      "slug": "garden-level",
+      "title": "Garden Level",
+      "location": "Berkeley, California",
+      "category": "Renovation",
+      "year": 2023,
+      "area": "2,150 ft²",
+      "description": "A reworked ground floor brings daylight, accessible circulation and a better connection to the garden.",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": false,
+      "concept": "A reworked ground floor brings daylight, accessible circulation and a better connection to the garden. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    },
+    {
+      "slug": "ridge-house",
+      "title": "Ridge House",
+      "location": "Marin, California",
+      "category": "Residential",
+      "year": 2026,
+      "area": "3,750 ft²",
+      "description": "A low-slung residence follows the contours of a hillside and frames distant views.",
+      "status": "Concept",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=85",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=85"
+      ],
+      "featured": false,
+      "concept": "A low-slung residence follows the contours of a hillside and frames distant views. The scheme starts with how the spaces will be used throughout the day.",
+      "challenges": "The brief called for a clear sequence of spaces within a constrained footprint. The concept concentrates circulation and places shared rooms where they can benefit most from natural light."
+    }
+  ],
+  "services": [
+    {
+      "slug": "architectural-design",
+      "title": "Architectural Design",
+      "icon": "building",
+      "description": "From the first site sketch to coordinated drawings, we shape buildings around the way people live and work.",
+      "benefits": [
+        "Site and feasibility studies",
+        "Concept through detailed design",
+        "Consultant coordination"
+      ]
+    },
+    {
+      "slug": "interior-design",
+      "title": "Interior Design",
+      "icon": "armchair",
+      "description": "Thoughtful interiors with a clear material palette, comfortable proportions and natural light.",
+      "benefits": [
+        "Space planning",
+        "Finish and lighting palettes",
+        "Furniture and fixture selection"
+      ]
+    },
+    {
+      "slug": "urban-planning",
+      "title": "Urban Planning",
+      "icon": "map",
+      "description": "Planning for walkable, adaptable places that connect people to the city around them.",
+      "benefits": [
+        "Site frameworks",
+        "Public realm strategy",
+        "Phasing and feasibility"
+      ]
+    },
+    {
+      "slug": "renovation",
+      "title": "Renovation and Remodeling",
+      "icon": "hammer",
+      "description": "Careful changes that give existing buildings new purpose while retaining the details that make them distinctive.",
+      "benefits": [
+        "Existing condition review",
+        "Adaptive reuse concepts",
+        "Renovation design"
+      ]
+    },
+    {
+      "slug": "visualization",
+      "title": "3D Visualization",
+      "icon": "box",
+      "description": "Explore form, materials and light before construction through clear visual studies.",
+      "benefits": [
+        "Spatial models",
+        "Material studies",
+        "Presentation imagery"
+      ]
+    },
+    {
+      "slug": "consultation",
+      "title": "Architecture Consultation",
+      "icon": "messages",
+      "description": "Early guidance on scope, site constraints and design priorities for your next project.",
+      "benefits": [
+        "Brief development",
+        "Scope and priorities",
+        "Next-step planning"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "slug": "studio-principal",
+      "title": "Studio Principal",
+      "position": "Architecture and design direction",
+      "description": "Sets the design direction and leads client collaboration from the initial brief through project delivery.",
+      "order": 1,
+      "department": "Leadership",
+      "published": true
+    },
+    {
+      "slug": "design-team",
+      "title": "Design Team",
+      "position": "Architecture and interiors",
+      "description": "Develops spatial studies, material palettes and drawings in collaboration with project consultants.",
+      "order": 2,
+      "department": "Architecture",
+      "published": true
+    }
+  ],
+  "blog": [
+    {
+      "slug": "designing-with-daylight",
+      "title": "Designing with daylight",
+      "description": "The first decisions about light happen long before a fixture is chosen.",
+      "body": "Daylight begins with orientation. A plan can place shared spaces where they receive the light their occupants use most, while utility rooms can take less exposed positions.\n\nThe size of an opening matters, but so do its depth, shading and the surfaces it illuminates. Testing these decisions together can make a room feel comfortable throughout the day.\n\nA daylight study is also a conversation about glare, heat and privacy. The best solutions are shaped by local conditions and the needs of the people who use the space.",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
+      "published": true
+    }
+  ],
+  "settings": [
+    {
+      "slug": "studio",
+      "title": "Atelier Arc",
+      "headline": "We Design Spaces That Inspire Living",
+      "intro": "Atelier Arc is an architecture and design studio exploring the relationship between people, place, and the spaces they call home.",
+      "email": "hello@example.com",
+      "phone": "+1 (415) 555-0142",
+      "location": "San Francisco, California"
+    }
+  ]
+}

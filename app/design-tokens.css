@@ -1,0 +1,40 @@
+:root{
+  --font-display:var(--aa-display-font),Georgia,serif;
+  --font-body:var(--aa-body-font),Arial,sans-serif;
+  --color-paper:#fff;
+  --color-cream:#faf8f5;
+  --color-surface:#f6f2ea;
+  --color-ink:#191919;
+  --color-green:#0b3a30;
+  --color-text:#535353;
+  --color-muted:#666;
+  --color-gold:var(--color-green);
+  --color-gold-soft:#8ba99d;
+  --color-sage:#6f7f63;
+  --color-border:#e5dfd6;
+  --color-success:#245137;
+  --color-error:#9c2929;
+  --text-xs:.72rem;
+  --text-sm:.82rem;
+  --text-base:.9375rem;
+  --text-lg:1.0625rem;
+  --heading-xl:clamp(2.8rem,5.2vw,5.5rem);
+  --heading-lg:clamp(2.15rem,3.8vw,4rem);
+  --heading-md:clamp(1.5rem,2.25vw,2.25rem);
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;
+  --space-5:24px;--space-6:32px;--space-7:48px;--space-8:64px;
+  --section-space:clamp(40px,6vw,88px);
+  --container-width:1320px;
+  --container-gutter:clamp(18px,4.5vw,56px);
+  --radius-control:8px;--radius-card:14px;--radius-pill:999px;
+  --shadow-soft:0 4px 20px #19191908;
+  --shadow-raised:0 12px 32px #19191910;
+  --motion-fast:160ms;--motion-normal:240ms;--motion-slow:420ms;
+  --motion-ease:cubic-bezier(.2,.65,.3,1);
+  /* Compatibility aliases keep existing page layouts and CMS presets working. */
+  --paper:var(--color-paper);--soft:var(--color-cream);--ink:var(--color-ink);
+  --body:var(--color-muted);--accent:var(--color-gold-soft);--gold:var(--color-gold);
+  --line:var(--color-border);--serif:var(--font-display);--sans:var(--font-body);
+}
+/* Media queries retain the existing 540/760/1024px layout boundaries;
+   CSS custom properties cannot be substituted into media query conditions. */

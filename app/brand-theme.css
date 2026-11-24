@@ -1,0 +1,15 @@
+/* One brand system across route styles, CMS sections, and the admin workspace. */
+html body{font-family:var(--font-body)}
+html body :is(main,.ad,.ad-login) :is(h1,h2,h3,h4,h5,h6){font-family:var(--font-display)!important}
+html body :is(button,input,textarea,select){font-family:var(--font-body)!important}
+html body .ad{--accent:var(--color-green);--accent-dark:#082c24;--hover:#edf4f0}
+html body :is(.button:not(.outline),.aa-button:not(.aa-outline),.rh-primary,.ad-primary,.ad-gold,.nav-cta){background:var(--color-green)!important;border-color:var(--color-green)!important;color:white!important}
+html body :is(.button:not(.outline),.aa-button:not(.aa-outline),.rh-primary,.ad-primary,.ad-gold,.nav-cta):hover{background:#082c24!important;border-color:#082c24!important}
+html body :is(.button.outline,.aa-outline,.rh-outline){border-color:var(--color-green);color:var(--color-green)}
+html body :is(.sv-bg-dark,.pp-cta,.rh-cta) :is(.aa-outline,.button.outline,.rh-outline){color:white;border-color:#ffffffa6}
+html body :is(.pj-tabs a[aria-current],.pj-pagination a[aria-current],.pj-views a[aria-current],.pj-detail-tabs button[aria-selected=true],.aa-filters button[aria-pressed=true],.aa-team-tabs button[aria-selected=true],.sv-gallery-filters button[aria-pressed=true],.journal-categories button[aria-pressed=true]){background:var(--color-green)!important;border-color:var(--color-green)!important;color:white!important}
+html body :is(.ap-project-card,.ap-style-card,.select-card):has(input:checked){border-color:var(--color-green);box-shadow:0 0 0 1px var(--color-green);background:#f0f6f2}
+html body :is(a,button,input,textarea,select,summary):focus-visible{outline-color:var(--color-green)}
+
+/* Keep display headings readable without splitting ordinary words. */
+html body .pj-overview .pj-hero-copy h1{max-width:18ch;overflow-wrap:normal;word-break:normal}

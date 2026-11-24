@@ -1,0 +1,57 @@
+[
+  {
+    "file": "wood.jpg",
+    "asset": "fine_grained_wood",
+    "source": "https://polyhaven.com/a/fine_grained_wood",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/fine_grained_wood/fine_grained_wood_col_2k.jpg",
+    "license": "CC0",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "file": "stone.jpg",
+    "asset": "stone_wall",
+    "source": "https://polyhaven.com/a/stone_wall",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_wall/stone_wall_diff_2k.jpg",
+    "license": "CC0",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "file": "plaster.jpg",
+    "asset": "clay_plaster",
+    "source": "https://polyhaven.com/a/clay_plaster",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/clay_plaster/clay_plaster_diff_2k.jpg",
+    "license": "CC0",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "file": "metal.jpg",
+    "asset": "metal_plate",
+    "source": "https://polyhaven.com/a/metal_plate",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_diff_2k.jpg",
+    "license": "CC0",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "file": "concrete.jpg",
+    "asset": "concrete",
+    "source": "https://polyhaven.com/a/concrete",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete/concrete_diff_2k.jpg",
+    "license": "CC0",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  }
+]
